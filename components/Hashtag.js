@@ -19,7 +19,7 @@ function Hashtag({ hashtag }) {
   const refreshHashtagTweets = () => {
     if (!hashtag) return;
     fetch(
-      `https://hackatweet-backend-murex-eta.vercel.app//tweets/hashtag/${encodeURIComponent(
+      `https://hackatweet-backend-murex-eta.vercel.app/tweets/hashtag/${encodeURIComponent(
         hashtag
       )}`
     )
