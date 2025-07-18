@@ -1,0 +1,29 @@
+
+
+.tweetContainer{
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+}
+.tweetInfo{
+    color: grey;
+}
+.user{
+    display: flex;
+    padding-top: 10px;
+
+}
+.user *{ padding-left: 10px;}
+
+.tweeInteract *{ padding-left: 10px;}
+
+
+.iconToHover:hover{
+    cursor: pointer;
+}
+
+.tweetMsg{
+    padding-left: 10px ;
+}

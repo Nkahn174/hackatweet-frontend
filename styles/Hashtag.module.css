@@ -1,0 +1,39 @@
+.headerHashtags{
+    display: flex;
+    flex-direction: column;
+    height: 200px
+}
+
+.firstHeader {
+
+  align-self: flex-start; /* Home en haut à gauche */
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+.middleInput {
+  flex-grow: 1; /* pour que l’input prenne tout l’espace */
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.inputHashtags{
+    
+width: 90%;
+margin: 0 auto; /* centre horizontalement */
+  display: block;
+  height: 50px;
+  border-radius: 20px;
+  border-bottom: 1px solid grey;
+  color: grey;
+  background-color: #161d26;
+  padding-left: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+
+.HashtagCOntainer {
+  max-height: 800px; /* ou une hauteur fixe comme height: 400px */
+  overflow-y: auto; /* active la scroll bar verticale si le contenu déborde */
+}

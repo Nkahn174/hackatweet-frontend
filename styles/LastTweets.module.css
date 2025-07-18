@@ -1,0 +1,63 @@
+
+
+.headerLogin{
+    display: flex;
+    flex-direction: column;
+    height: 200px
+}
+
+.firstHeader {
+
+  align-self: flex-start; /* Home en haut à gauche */
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+.middleInput {
+  flex-grow: 1; /* pour que l’input prenne tout l’espace */
+  width: 100%;
+  margin-bottom: 8px;
+
+}
+.inputTweet{
+    
+width: 90%;
+margin: 0 auto; /* centre horizontalement */
+  display: block;
+  height: 50px;
+  border-radius: 20px;
+  border-bottom: 1px solid grey;
+  color: grey;
+  background-color: #161d26;
+  padding-left: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.lastHeader {
+  display: flex;
+  justify-content: flex-end; /* bouton + compteur à droite */
+  gap: 12px; /* espace entre compteur et bouton */
+  align-items: center;
+  margin-right: 50px;
+}
+
+.addTweet{
+    width: 100px;
+    height: 30px;
+    background-color: #3f93e8;
+    font-weight: 800;
+    border-radius: 20px;
+    color: white;
+}
+
+.addTweet:hover{
+   background-color:#347ac2;
+   cursor: pointer;
+}
+
+.tweetContainer {
+  max-height: 800px; /* ou une hauteur fixe comme height: 400px */
+  overflow-y: auto; 
+  /* active la scroll bar verticale si le contenu déborde */
+}

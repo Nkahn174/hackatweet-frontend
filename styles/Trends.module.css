@@ -1,0 +1,33 @@
+.hashtagContainer {
+  display: flex;
+  flex-direction: column;
+  width: auto; /* pas de largeur fixe */
+  height: auto; /* pas de hauteur fixe */
+  /* éventuellement gap pour espacer */
+  background-color:#1b232c;
+  margin: 10px;
+  border-radius: 10px;
+ }
+
+.hashtag{
+    height: 100px;
+    padding-left: 20px;
+}
+
+.hashtag:hover{
+  cursor: pointer;
+}
+
+.hashtagName{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hashtagNbr{
+  color: grey;
+}
+
+
+.title{
+  margin-left: 20px;
+}

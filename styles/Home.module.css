@@ -1,0 +1,64 @@
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 35% 30% 25%; 
+  grid-template-rows: 100%;
+}
+
+.leftContainer{
+  height: 100%;
+  background-image: url('../public/background.PNG');
+  
+}
+.middleContainer{
+  height: 100%;
+  padding-left: 40px;
+}
+
+.rightContainer{
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+.mainTitle{
+  font-size: 100px;
+}
+.subTitle{
+  font-size: 50px;
+}
+.accountText{
+  font-weight: 600;
+  padding-left: 10px;
+}
+.signupButton{
+    width: 225px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #3f93e8;
+    font-weight: 700;
+    color: white;
+}
+
+.signupButton:hover{
+  cursor: pointer;
+  background-color: #347ac2;
+}
+
+.signinButton{
+    width: 225px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #3f93e8;
+    background-color: #161d26;
+    border: solid 1px white;
+}
+
+.signinButton:hover{
+  cursor: pointer;
+  background-color:#114c99;
+}
+
